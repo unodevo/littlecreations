@@ -1,0 +1,93 @@
+<style>
+    .pink-heading {
+        color: #013220;
+    }
+
+    .btn-custom {
+        background-color: #e4b4c4 !important;
+        border-color: white !important;
+        color: #fff !important;
+    }
+
+    .btn-custom:hover {
+        background-color: #a76d8a !important;
+        border-color: white !important;
+        color: #fff !important;
+    }
+
+
+
+    .bg-nude-pink {
+        background-color: #013220 !important;
+        /* Set background color to nude natural pink */
+        color: white !important;
+        /* Set text color to white */
+    }
+
+    .badge.bg-secondary {
+        background-color: #F4B1B9;
+        color: white !important;
+        text-transform: uppercase;
+    }
+
+    .avatar {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .avatar img {
+        transition: transform 0.5s ease;
+    }
+
+    .avatar:hover img {
+        transform: scale(1.2);
+    }
+
+    .product:hover .avatar img {
+        transform: scale(1.2);
+    }
+
+    .candles-image {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+
+    .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .card-title h1 {
+        font-size: 1.2rem !important;
+        font-weight: bold !important;
+
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+        height: 450px;
+    }
+
+.card-no-border {
+border: none;
+}
+
+
+<blade media|%20(max-width%3A%20991.98px)%20%7B%0D>.card-img-top {
+        height: auto;
+    }
+</style>
